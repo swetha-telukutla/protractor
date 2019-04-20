@@ -1,0 +1,42 @@
+
+{
+	"url":"http://www.way2automation.com/angularjs-protractor/banking/#/login",
+	"newCust":{
+		"fname":"latha",
+		"lname":"teluk",
+		"pcode":"20147"
+	},
+	"addAccount":{
+		"custName":"Harry Potter",
+		"currency":["dollar","pound","rupee"],
+		"msg":"Account created successfully with account Number"
+	},
+	"deleteCust":{
+		"custName":"Ron",
+		"url":"http://www.way2automation.com/angularjs-protractor/banking/#/manager/list"
+	},
+	"account":{
+		"name":"Harry Potter",
+		"accNo":["1004","1005","1006"],
+		"currency":["Dollar","Pound","Rupee"]
+	},
+	"deposit":{
+		"name":"Harry Potter",
+		"accNo":"1006",
+		"amnt":"2000",
+		"successMsg":"Deposit Successful"
+	},
+	"withdrawFail":{
+		"name":"Harry Potter",
+		"accNo":"1006",
+		"amnt":"2001",
+		"successMsg":"Transaction successful",
+		"failMsg":"Transaction Failed. You can not withdraw amount more than the balance."
+	},
+	"withdrawSucc":{
+		"name":"Harry Potter",
+		"accNo":"1006",
+		"amnt":"1000",
+		"successMsg":"Transaction successful"
+	}
+}
